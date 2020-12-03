@@ -1,0 +1,30 @@
+Package: IPLSM
+Title: Joint latent space model for social and item response network 
+Version: 0.0.0.9000
+Authors@R: person(given = "Selena",
+           family = "Wang",
+           role = c("aut", "cre"),
+           email = "wang.10171@osu.edu",
+           comment = c(ORCID = "0000-0002-4358-5382"))
+Description: Joint latent variable models for network and item responses using fast inferential procedures.
+Depends: 
+    R (>= 3.5),
+    MASS
+Imports:
+    foreign,
+    dplyr,
+    gdata,
+    psych,
+    expm,
+    boot,
+    Matrix,
+    rgl,
+    CovTools,
+    plyr, 
+    lvm4net,
+    pROC
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
